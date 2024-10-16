@@ -1,0 +1,16 @@
+app_version: 1.0.0
+name: CheckTctl
+actions:
+  - name: check_tctl_version 
+    description: Executes a subflow
+    parameters:
+      - name: custom_str 
+        description: custom_str
+        required: false
+        multiline: false 
+        example: "custom_str"
+        schema:
+          type: string
+    returns:
+      schema:
+        type: string
