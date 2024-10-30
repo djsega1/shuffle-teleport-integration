@@ -1,6 +1,14 @@
 app_version: 1.0.0
 name: CheckTctl
 description: teleport image
+tags:
+  - Testing
+categories:
+  - Other
+contact_info:
+  name: "@frikkylikeme"
+  url: https://github.com/frikky
+  email: "frikky@shuffler.io"
 actions:
   - name: check_tctl_version 
     description: Executes a subflow
