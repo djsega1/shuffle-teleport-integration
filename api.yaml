@@ -1,5 +1,6 @@
 app_version: 1.0.0
 name: CheckTctl
+description: teleport image
 actions:
   - name: check_tctl_version 
     description: Executes a subflow
